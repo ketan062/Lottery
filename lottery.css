@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212121;
+    color: #fff;
+    min-height: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.headline{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+.input{
+    background-color: rgba(246, 255, 0, 0.895);
+    min-height: 30vh;
+    border: 1px #fff solid;
+    border-radius: 30%;
+    min-width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 3px 8px #ffffff8e ;
+}
+.input .lotteryno{
+    display: inline-block;
+    border: 1px #fff solid;
+    border-radius: 50%;
+    min-width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: #ffffff;
+    color: black;
+    text-shadow: #9f9f9f;
+    box-shadow: #9f9f9f 2px 2px;
+}
+#button{
+    z-index: 6;
+    display: inline-block;
+    border: 1px #fff solid;
+    border-radius: 50%;
+    min-width: 100px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    font-size: 1.25rem;
+    opacity: 0;
+}
+
