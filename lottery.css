@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+main{
+    z-index: 1000;
+    background-image: url("R.jpeg");
+    background-size: auto;
+}
 body{
     background-color: #212121;
     color: #fff;
@@ -14,28 +19,31 @@ main{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    gap: 30px;
 }
 .headline{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
+    color: cyan;
 }
 .input{
-    background-color: rgba(246, 255, 0, 0.895);
+    background-color: rgba(246, 255, 0, 1);
     min-height: 30vh;
     border: 1px #fff solid;
-    border-radius: 30%;
+    border-radius: 100%;
     min-width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 3px 8px #ffffff8e ;
+    /* box-shadow: 3px 8px #ffffff8e ; */
 }
 .input .lotteryno{
     display: inline-block;
     border: 1px #fff solid;
     border-radius: 50%;
-    min-width: 30px;
+    min-width: 50px;
+    min-height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,4 +69,3 @@ main{
     font-size: 1.25rem;
     opacity: 0;
 }
-
